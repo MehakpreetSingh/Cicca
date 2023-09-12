@@ -31,9 +31,6 @@
     rgba(18, 74, 166, 0.44) 100%
   );
   filter: blur(25px);
-  /* border-top-right-radius: 20%;
-  border-bottom-right-radius: 20%; */
-  /* border-bottom-left-radius: 50%; */
 }
 .side_attach {
   width: 60px;
@@ -131,4 +128,14 @@
   gap: 10px;
   border-radius: 10px;
   background: #04d8f2;
+}
+.ecosystem{
+  display: flex;
+padding: 12px 20px 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+color: #ffffff;
+background: rgba(0, 0, 0, 0.676);
+
 }
