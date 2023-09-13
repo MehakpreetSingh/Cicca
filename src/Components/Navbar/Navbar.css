@@ -84,4 +84,7 @@
       display: block; /* Show the menu icon for smaller screens */
     }
   }
+  .shuffle{
+    width: 100px;
+  }
   
