@@ -8,6 +8,13 @@ const Page = () => {
   return (
     <>
         <div className='container'>
+            <div className='line_block_1'>
+                <div className='line_circle_block_1'>
+                    <div className='line_inner_circle_block_1'>
+
+                    </div>
+                </div>
+            </div>
             <div className='centerText'>
                 Build your Dapps on a <span className='textHighlight'>Fast and a Secure Blockchain</span> Platform
             </div>

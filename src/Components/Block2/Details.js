@@ -5,6 +5,9 @@ import { bulletPoints } from './constant'
 const Details = () => {
   return (
     <div className='container2'>
+      <div className='line_block_2'>
+
+      </div>
         <div className='left-gradient'>
         </div> 
         <div className='leftView'>

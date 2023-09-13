@@ -103,3 +103,11 @@ line-height: normal;
     line-height: normal;
     text-align: start;
 }
+.line_block_2{
+    width: 2px;
+    background: #00B7CD;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 5%;
+}
