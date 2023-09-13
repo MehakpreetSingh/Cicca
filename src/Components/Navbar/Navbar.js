@@ -1,14 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../Images/logo.png";
 import { headings } from "./constant";
 const Navbar = () => {
+  const [activeNavbar,setActiveNavbar]=useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const changeBackround=()=>{
+    console.log(window.scrollY);
+    if (window.scrollY>100) {
+        console.log('reeeeee');
+        setActiveNavbar(true)
+    }else{
+        setActiveNavbar(false)
+    }
+  }
+  useEffect(()=>{
+    window.addEventListener("scroll",changeBackround)
+  },[])
   return (
-    <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
+    <nav onScrollCapture={changeBackround} className={`navbar ${isMenuOpen ? "open" : ""} ${activeNavbar? 'activeNavbar' :''}`}>
       <div className="LogoLinks">
         <div className="logo">
           <img src={logo} alt="Logo" />

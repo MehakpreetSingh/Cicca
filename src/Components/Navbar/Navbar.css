@@ -12,6 +12,12 @@
     z-index: 100;
     width: 100vw;
 }
+/* .navbar :active{
+    
+} */
+.activeNavbar{
+    background-color: #020202;
+}
   .LogoLinks {
     display: flex;
     justify-content: center;
