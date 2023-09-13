@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import BgVideo from "../../Images/background.mp4";
+import BgVideo from "../../Images/background_2.mp4";
 import SVG from "react-inlinesvg";
 import { hero_sub_heading, socialIcons } from "./constant";
 const Home = () => {

@@ -6,6 +6,7 @@ const Platform = () => {
   return (
     <div className="platform">
       <div className="line_block_3"></div>
+      <div className="line2_block_3"></div>
       <div className="heading_block_3">
         Build on Developer Friendly <br />
         <span>Cicca Platform</span>

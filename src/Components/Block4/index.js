@@ -7,7 +7,13 @@ import { arrowIcon, subText, text1, text2 } from "./constant";
 const Platform_next = () => {
     return (
         <div className="platform_next">
-          <div className="line_block_4"></div>
+          <div className="line_block_4">
+          <div className='line_circle_block_4'>
+                    <div className='line_inner_circle_block_4'>
+
+                    </div>
+                </div>
+          </div>
           <div className="heading_block_4">
             The <span>blockchain</span><br />
             built for finance

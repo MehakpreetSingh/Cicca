@@ -20,6 +20,14 @@
   bottom: 0;
   left: 5%;
 }
+.line2_block_3 {
+  width: 2px;
+  background: #00b7cd;
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  left: 8%;
+}
 .heading_block_3 {
   width: 55%;
   color: #020202;
