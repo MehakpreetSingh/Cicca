@@ -79,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin-bottom: 96px;
 }
 
 .ellipse_corner {
@@ -126,10 +127,6 @@
     gap : 40px ; 
 }
 
-.featureName {
-    
-}
-
 
 .featureHeading {
     color: #FFF;
@@ -159,7 +156,6 @@
 }
 .listItems:hover {
     transform: scale(1.2);
-    color :#070d1c
 }
 
 .products {
